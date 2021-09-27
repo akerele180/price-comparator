@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Poppins, "sans-serif";
+  font-size: 15px;
+}
+.logo {
+  font-family: Qwigley, "sans-serif";
+  color: #573a23;
+  font-size: 60px;
+  line-height: 35px;
+}
+span {
+  letter-spacing: 4px;
+}
+li {
+  list-style-type: none;
+}
+.btn {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  outline: none !important;
+  background-color: none;
+}
+.signup,
+.login:hover {
+  background-color: #d38e3e !important;
+  color: #ffffff !important;
+}
+.login,
+.signup:hover {
+  color: #d38e3e !important;
+  border-color: #d38e3e !important;
+  background-color: transparent !important;
+  border: 2px solid;
+}
+.login {
+  margin-right: 10px;
+}
+nav {
+  min-width: 200px;
+}
+
+main {
+  background-image: url("./assets/Rectangle5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 110px);
+}
+h2 {
+  font-family: Raleway, "sans-serif";
+  font-weight: 700 !important;
+  line-height: 50px !important;
+  letter-spacing: 3px !important;
+  width: 700px;
+  font-size: 2.5rem !important;
+}
+h3 {
+  font-family: Qwigley, "sans-serif";
+  font-size: 3.2rem !important;
+}
+quote {
+  color: #ffffff;
+}
+div.search-btn {
+  width: 750px;
+}
+input {
+  width: 76%;
+  border: none;
+  outline: none;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  border-radius: 5px 0 0 5px;
+}
+button.search {
+  font-family: Poppins, "sans-serif" !important;
+  border-radius: none;
+  letter-spacing: 1.2px;
+  background-color: #c87841 !important;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 0.44rem;
+  width: 14%;
+  border-radius: 0 5px 5px 0;
+}
+@media screen and (max-width: 769px) {
+  div.search-btn {
+    width: 100%;
+    margin: 0;
+  }
+  button.search {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  input {
+    width: 100%;
+    border-radius: 5px;
+  }
+  h2 {
+    width: unset;
+  }
+}
+@media screen and (max-width: 425px) {
+  h2 {
+    font-size: 2rem !important;
+  }
+}
