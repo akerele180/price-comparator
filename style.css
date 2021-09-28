@@ -43,13 +43,12 @@ li {
 nav {
   min-width: 200px;
 }
-
 main {
   background-image: url("./assets/Rectangle5.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 80px);
 }
 h2 {
   font-family: Raleway, "sans-serif";
@@ -94,6 +93,7 @@ input {
     width: 100%;
     margin: 0;
   }
+
   .search-btn a {
     width: 100%;
     margin-top: 15px;
