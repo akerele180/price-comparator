@@ -14,7 +14,7 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Qwigley&family=Raleway:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Qwigley&family=Lato:wght@500&family=Raleway:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <script
@@ -47,9 +47,11 @@
             class="collapse justify-content-end navbar-collapse"
             id="navbarTogglerDemo02"
           >
-            <ul class="d-flex fw-bold p-0 m-0 justify-content-between">
+            <ul class="d-flex fw-bolder h4 p-0 m-0 justify-content-between">
               <li class="" id="">
-                <button class="btn login px-4">Log In</button>
+                <a href="./index.html"
+                  ><button class="btn login px-4">Log In</button></a
+                >
               </li>
               <li class="" id="">
                 <button class="btn signup px-4">Sign Up</button>
@@ -59,8 +61,7 @@
         </div>
       </nav>
     </header>
-
-    <main class="d-flex align-items-center">
+    <main class="d-flex align-items-center ">
       <section
         class="
           d-flex
@@ -70,34 +71,39 @@
           align-items-center
         "
       >
-        <h2 class="text-center">
-          Ever tried getting the <quote>best price</quote> for your desired
-          value?
-        </h2>
-        <h3 class="my-4">Click here</h3>
-        <div
-          class="
-            container
-            d-flex
-            align-items-center
-            justify-content-center
-            search-btn
-            flex-column flex-md-row
-          "
-        >
-          <input
-            type="text"
-            class="search py-2 px-3"
-            id="myInput"
-            placeholder="Search product..."
-          />
-          <a class="link text-center" id="searchLink" href="./result.html"
-            ><button type="submit" class="btn fw-bold search" id="submit">
-              Search
-            </button></a
-          >
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/brown-leather-slip-men-s-shoes-fashion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Amazon's Price</h5>
+              <p class="card-text text-center fw-bold h5">$320,245.11</p>
+            </div>
+          </div>
         </div>
-      </section>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/brown-leather-slip-men-s-shoes-fashion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Ebay's Price</h5>
+              <p class="card-text text-center fw-bold h5">$100,000.21</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/brown-leather-slip-men-s-shoes-fashion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Uleval's Price</h5>
+              <p class="card-text text-center fw-bold h5">$8,000.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='mt-5 text-center'>
+        <p class='fw-2 h5 p-2 px-3 m-0'>The best price is <span>$8,000</span> from <span>Uleval's Store</span></p>
+      </div>
+    </section>
     </main>
     <script src="script.js"></script>
   </body>

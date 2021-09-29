@@ -13,6 +13,17 @@ body {
   font-size: 60px;
   line-height: 35px;
 }
+div.text-center {
+  background-color: #D38E3E71;
+}
+div.text-center p, p span {
+  color: #000;
+  font-family: Raleway;
+}
+p span {
+  letter-spacing: 0;
+  color: #fff;
+}
 span {
   letter-spacing: 4px;
 }
@@ -35,9 +46,10 @@ li {
   color: #d38e3e !important;
   border-color: #d38e3e !important;
   background-color: transparent !important;
-  border: 2px solid;
+  
 }
 .login {
+  border: 2px solid;
   margin-right: 10px;
 }
 nav {
@@ -48,7 +60,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 95px);
 }
 h2 {
   font-family: Raleway, "sans-serif";
@@ -57,6 +69,13 @@ h2 {
   letter-spacing: 3px !important;
   width: 700px;
   font-size: 2.5rem !important;
+}
+p, h5 {
+  font-weight: 500;
+  font-family: Poppins, 'sans-serif';
+}
+p {
+  color: #d38e3e;
 }
 h3 {
   font-family: Qwigley, "sans-serif";
@@ -93,7 +112,6 @@ input {
     width: 100%;
     margin: 0;
   }
-
   .search-btn a {
     width: 100%;
     margin-top: 15px;
@@ -105,6 +123,9 @@ input {
   }
   h2 {
     width: unset;
+  }
+  main {
+    padding: 3rem 0;
   }
 }
 @media screen and (max-width: 425px) {
